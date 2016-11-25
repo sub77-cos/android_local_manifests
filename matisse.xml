@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Fetch -->
+ <remote
+	name="sub"
+	fetch="ssh://git@github.com/sub77-cos/"
+  />
+  <!-- Device -->
+  <project
+   name="android_device_samsung_matisse3g"
+   path="device/samsung/matisse3g"
+   remote="sub"
+   revision="Cos-7.0"
+  />
+  <project
+   name="android_device_samsung_msm8226-common"
+   path="device/samsung/msm8226-common"
+   remote="sub"
+   revision="Cos-7.0"
+  />
+  <project
+   name="android_device_samsung_qcom-common"
+   path="device/samsung/qcom-common"
+   remote="sub"
+   revision="Cos-7.0"
+  />
+  <!-- Kernel -->
+  <project
+   name="android_kernel_samsung_msm8226"
+   path="kernel/samsung/msm8226"
+   remote="sub"
+   revision="Cos-7.0"
+  />
+  <!-- Vendor -->
+  <project
+   name="android_vendor_samsung_matisse3g"
+   path="vendor/samsung/matisse3g"
+   remote="sub"
+   revision="Cos-7.0"
+  />
+</manifest>
