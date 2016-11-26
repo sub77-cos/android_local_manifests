@@ -2,8 +2,8 @@
 <manifest>
   <!-- Fetch -->
  <remote
-	name="sub"
-	fetch="ssh://git@github.com/sub77-cos/"
+   name="sub"
+   fetch="ssh://git@github.com/sub77-cos/"
   />
   <!-- Device -->
   <project
@@ -33,8 +33,8 @@
   />
   <!-- Vendor -->
   <project
-   name="android_vendor_samsung_matisse3g"
-   path="vendor/samsung/matisse3g"
+   name="android_vendor_samsung"
+   path="vendor/samsung"
    remote="sub"
    revision="Cos-7.0"
   />
